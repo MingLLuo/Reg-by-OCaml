@@ -1,0 +1,3 @@
+(tests
+ (names basicTest)
+ (libraries str fa oUnit testUtils))

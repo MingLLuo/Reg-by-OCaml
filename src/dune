@@ -1,0 +1,12 @@
+(library
+ (name fa)
+ (modules sets nfa regexp)
+ (libraries str oUnit))
+
+; 27: Innocuous unused variable: Unused variable that is not bound with let nor ascribed to an irrefutable pattern.
+; 39: A special case of unused value, it warns about unused "rec" or "let rec" definitions.
+
+(env
+ (dev
+  (flags
+   (:standard -w -27-39))))

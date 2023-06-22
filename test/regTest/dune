@@ -1,0 +1,3 @@
+(tests
+ (names regTest)
+ (libraries qcheck str fa oUnit testUtils))
