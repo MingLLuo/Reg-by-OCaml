@@ -1,0 +1,4 @@
+(executable
+ (name visualizer)
+ (libraries str fa)
+ (modes byte exe))
